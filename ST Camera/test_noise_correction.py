@@ -14,7 +14,7 @@ from pathlib import Path
 
 import numpy as np
 
-source = Path(__file__).with_name("speckle_timestamp (1).py")
+source = Path(__file__).with_name("real_time_flow_monitoing_with_NC.py")
 tree = ast.parse(source.read_text(encoding="utf-8"))
 names = {"write_json", "active_raw", "copy_raw_roi", "contrast_statistics",
          "controls_match", "DarkCalibration", "RelativeFlow", "RawSaver", "CameraWorker"}
